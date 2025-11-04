@@ -1,0 +1,76 @@
+.smart-home {
+  padding: 40px 20px;
+  background: #f9fafc;
+  text-align: center;
+  color: #222;
+}
+
+.smart-home h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #005f73;
+}
+
+.intro {
+  max-width: 750px;
+  margin: 0 auto 40px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+}
+
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.image-card {
+  max-width: 600px;
+  text-align: center;
+}
+
+.image-card img {
+  width: 45%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-card p {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.back-btn {
+  margin-top: 30px;
+}
+
+.back-btn button {
+  background: #005f73;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-btn button:hover {
+  background: #0a9396;
+  transform: scale(1.05);
+}
+
+
+
