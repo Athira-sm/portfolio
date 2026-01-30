@@ -1,6 +1,6 @@
 import React from "react";
 import "./home.css";
-import cv from "../assets/ATHIRA SM_CV.pdf";
+import cv from "../assets/Athira S M_CV.pdf";
 
 export default function Home() {
   return (
