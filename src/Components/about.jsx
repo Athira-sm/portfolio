@@ -5,8 +5,8 @@ export default function About() {
     <section id="about" className="about">
       <h2>About Me</h2>
       <p>
-        I'm <span>Athira S M</span>, a <strong>B.Tech Computer Science Graduate</strong>
-         with hands-on experience as a <strong>MERN Stack Developer</strong> gained through various projects.
+        I'm <span>Athira S M</span>, a <strong>B.Tech Computer Science Graduate </strong> 
+        with hands-on experience as a <strong>MERN Stack Developer</strong> gained through various projects.
         I have worked on full-stack applications using MongoDB, Express.js, React, and Node.js,
         and I enjoy building clean, scalable, and user-friendly web applications.
       </p>
