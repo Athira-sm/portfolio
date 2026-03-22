@@ -1,18 +1,17 @@
 import Home from "./Components/home";
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/navbar";
 import About from "./Components/about";
 import Projects from "./Components/project";
-import Certificates from "./Components/certificates";
 import Contact from "./Components/contact";
 import SmartHome from "./Components/smarthome";
+
 export default function App() {
   return (
     <BrowserRouter>
       <Navbar />
 
       <Routes>
-       
         <Route
           path="/"
           element={
@@ -20,7 +19,6 @@ export default function App() {
               <Home />
               <About />
               <Projects />
-              <Certificates />
               <Contact />
             </>
           }
